@@ -1,17 +1,24 @@
 Example 1:
 
 1. 建立新的資料夾並切換至新資料夾
-
+```
+mkdir -p $HOME/FOLDER_NAME
+cd $HOME/FOLDER_NAME
+```
 2. 執行以下指令
 
 ```
 git init
 echo "Example 1" > ex1.txt
 ```
+3.將ex1.txt 檔案移到ncyu-2020資料夾
+```
+mv ex1.txt $HOME/ncyu-2020
+cd $HOME/ncyu-2020
+```
+4. 將ex1.txt加入git local repository並commit
 
-3. 將ex1.txt加入git local repository並commit
-
-4. 在新資料夾下執行以下指令
+5. 在新資料夾下執行以下指令
 
 ```
 bash <(curl -s https://raw.githubusercontent.com/jrjang/ncyu-2020/ex1/scripts/ex1-test.sh) GITHUB_ACCOUNT GITHUB_PROJECT
