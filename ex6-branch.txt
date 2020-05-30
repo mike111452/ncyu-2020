@@ -22,3 +22,4 @@
   origin/ex5-2
   origin/ex6
   origin/ex6-2
+  origin/test
